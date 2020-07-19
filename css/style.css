@@ -1,0 +1,132 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-dark {
+    background: transparent !important;
+    transition: 0.75s ease;
+}
+
+.bg-dark.scrolled {
+    background: #222537 !important;
+
+}
+
+#home-top-section {
+    background: url(../img/header.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 750px;
+}
+
+.home-inner h1 {
+    margin-top: 300px;
+}
+
+#search-section {
+    z-index: 1;
+    position: relative;
+    margin-top: -25px;
+}
+
+#search-section input {
+    height: 55px;
+    border-radius: 0px;
+}
+
+#search-section .search-btn {
+    width: 100px;
+    height: 55px;
+    border-radius: 0px;
+}
+
+#flight-section {
+    margin-top: 60px;
+}
+
+.hotal-section .card:hover {
+    background-color: #17A2B8;
+    color: #fff;
+}
+
+.hotel-section .card .card-body .btn-card {
+    width: 120px;
+
+}
+
+
+#trips {
+    margin-top: 80px;
+}
+
+#Attraction-section {
+    margin-top: 80px;
+}
+
+.hotal-section {
+    margin-top: 80px;
+}
+
+#flight-section {
+    margin-top: 80px;
+}
+
+#contact-section {
+    margin-top: 80px;
+}
+
+#contact-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+#contact-section ul li {
+    margin-top: 20px;
+}
+
+#contact-section p {
+    margin-top: 15px;
+}
+
+
+
+/*======================media query===================================*/
+@media(max-width: 576px) {
+    #home-top-section h1 {
+        font-size: 3rem;
+
+    }
+
+}
+
+@media(max-width: 992px) {
+    #search-section {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    #search-section {
+        padding-top: 10px;
+        padding: 10px 8px 8px 10px;
+    }
+
+    #search-section .search-btn {
+        width: 100%;
+        height: 55px;
+        border-radius: 0px;
+    }
+}
+
+@media(max-width: 576px) {
+    #flight-section a {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 576px) {
+    #Attraction-section a {
+        font-size: 12px;
+    }
+}
